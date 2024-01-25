@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INS</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" href="src/home-img.png" type="image/x-icon">
+</head>
+<body>
+    <!-- header -->
+    <header id="header" class="navbar-fixed header absolute top-0 left-0 w-full h-[8%] lg:h-[10%] z-10 flex items-center">
+        <div class="w-full mx-auto px-[16px] py-[19px]">
+            <div class="relative flex justify-between items-center">
+                <a href="#home" class="cursor-pointer"><img class="w-14" src="src/home-img.png" alt=""></a>
+                <div class="flex items-center">
+                    <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-500 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="absolute right-0 max-w-[250px] w-full bg-white bg-opacity-80 top-full rounded-lg shadow-lg hidden lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-black font-semibold transition duration-200 text-base py-2 mx-8 flex group-hover:text-green-500">home</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#about" class="text-black font-semibold transition duration-200 text-base py-2 mx-8 flex group-hover:text-green-500">about</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#visi-misi" class="text-black font-semibold transition duration-200 text-base py-2 mx-8 flex group-hover:text-green-500">vision</a>
+                            </li>
+                            <li class="group">
+                                <a href="#fasilitas" class="text-black font-semibold transition duration-200 text-base py-2 mx-8 flex group-hover:text-green-500">facilities</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- home section design -->
+    <section id="home">
+        <div class=" h-screen relative w-full">
+            <video autoplay loop muted poster="src/bg-vid.mp4" src="src/bg-vid.mp4" class="w-full h-full absolute object-cover"></video>
+            <div class="absolute top-0 left-0 w-full h-full bg-gray-900/20">
+                <div class="relative h-full w-screen flex justify-center items-center flex-col">
+                    <div class="flex flex-row justify-center items-center lg:flex-col">
+                        <img src="src/home-img.png" alt="" class="w-[150px] lg:w-[300px]">
+                        <h1 class="text-white font-black text-3xl lg:text-5xl"><span class="text-green-500">I</span>ndonesia <span class="text-green-500">N</span>atural <span class="text-green-500">S</span>chool</h1>
+                    </div>
+                    <p class="text-white text-center font-bold lg:text-xl lg:tracking-widest">where kids can <span class="text-green-500">nurture</span> their innner <span class="text-green-500">nature</span>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span class="text-green-500"></span>
+    <!-- about section design -->
+    <section id="about">
+        <div>
+            <div class="flex flex-col-reverse gap-12 lg:flex-row justify-center items-center">
+                <div class="h-screen w-full lg:w-1/2 grid grid-cols-2 grid-rows-2 relative">
+                    <p class="absolute text-white font-mono text-4xl font-extrabold bg-black w-48 h-12 rounded-br-xl lg:text-5xl lg:w-64 lg:h-14">#<span class="text-green-500">INS</span>SQUAD</p>
+                    <img src="src/about-img-1.jpg" alt="" class="col-span-2 row-span-1 object-cover w-full h-full">
+                    <img src="src/about-img-2.jpg" alt="" class="object-cover w-full h-full">
+                    <img src="src/about-img-3.jpg" alt="" class="object-cover w-full h-full">
+                </div>
+                
+                <div class="px-6 lg:w-1/2">
+                    <h1 class="mb-3 text-center font-extrabold text-3xl lg:text-5xl">Apa sih <span class="text-green-500"> INS</span> itu?</h1>
+                    <p class="text-justify font-semibold"><span class="text-green-500">Indonesia Natural School</span> adalah sebuah sekolah menengah pertama yang unik, dengan fokus utama pada pendidikan alam dan lingkungan. Di sekolah ini, siswa tidak hanya belajar tentang mata pelajaran akademis, tetapi juga diajarkan untuk menghargai alam dan memahami pentingnya keberlanjutan. Kurikulumnya dirancang untuk mengintegrasikan pengetahuan alam ke dalam pembelajaran sehari-hari, menciptakan pengalaman belajar yang holistik.
+
+                        <br><br>Sekolah ini berkomitmen untuk menciptakan lingkungan belajar yang mempromosikan kepedulian lingkungan dan keberlanjutan. Dengan pendekatan yang inovatif, Indonesia Natural School membantu siswa mengembangkan keterampilan, pengetahuan, dan sikap yang dibutuhkan untuk menjadi pemimpin masa depan yang peduli akan alam dan lingkungan.</p>
+                    <div class="lg:flex lg:items-center lg:gap-10">
+                    <div class="my-4 lg:w-full">
+                        <span class="relative">
+                            <span class="block absolute border-black bg-green-500 border-[3px] rounded-lg bg-transparent w-full h-full"></span>
+                            <button class=" block mx-auto   border-black border-[3px] w-full h-9 rounded-lg font-medium bg-black text-white hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10">gallery</button>
+                        </span>
+                    </div>
+                    
+                    <span class="relative lg:w-full">
+                        <span class="block absolute border-black bg-green-500 border-[3px] rounded-lg bg-transparent w-full h-full"></span>
+                        <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10">learn more</button>
+                    </span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- visi misi -->
+    <section id="visi-misi">
+        <div class="py-10 px-6 text-center bg-green-500 box-border lg:px-96">
+            <h1 class="font-extrabold text-white text-5xl mb-5">VISI</h1>
+            <p class="font-bold text-white">"MELANGSUNGKAN PENDIDIKAN MENENGAH UNTUK MEMPERKUAT KONSEP DIRI DAN POTENSI KECERDASAN SESUAI MINAT DAN MEMBANGUN KESADARAN BERBANGSA DI TENGAH INTERAKSI GLOBAL"</p>
+        </div>
+        <div class="flex flex-col lg:flex-row-reverse justify-center items-center gap-12 ">
+            <div class="h-full w-full grid grid-rows-3 grid-cols-2 lg:w-1/2">
+                <img class="h-full w-full object-cover" src="src/visi-3.jpeg" alt="foto-visi-2">
+                <img class="h-full w-full object-cover" src="src/visi-4.jpeg" alt="foto-visi-2">
+                <img class="h-full w-full object-cover" src="src/visi-1.jpeg" alt="foto-visi-1">
+                <img class="h-full w-full object-cover" src="src/visi-2.jpeg" alt="foto-visi-2">
+                <img class="h-full w-full object-cover" src="src/visi-5.jpg" alt="foto-visi-2">
+                <img class="h-full w-full object-cover" src="src/visi-6.jpg" alt="foto-visi-2">
+            </div>
+            <div class="px-6 lg:w-1/2">
+                <h1 class="text-center font-extrabold text-green-500 text-5xl mb-5">MISI</h1>
+                <div class="text-justify font-medium">
+                    <p>1. Menyelenggarakan Sekolah Menegah Pertama berbasis Kecerdasan Majemuk dan Pembelajaran Minat (Multiple Intelligent & Interest Curiosity Based Learning) <br><br></p>
+                    <p>2. Memberi pembelajaran sesuai Kurikulum Nasional dengan pengayaan dan pendalaman sesuai minat siswa                <br><br></p>
+                    <p>3. Menyediakan sarana untuk perkembangan kognitif, sikap (afektif- psikomotorik) dan melatih keterampilan hidup secara mandiri (life skill), dan pertumbuhan sosial emosi pada anak masa pubertas (umur 12-16 tahun)<br><br>                </p>
+                    <p>4. Mengembangkan proses belajar yang dilangsungkan dengan kepedulian dan pencermatan pada masyarakat bangsa pada penguatan humanisme dan multikultur                <br><br></p>
+                    <p>5. Mempraktikkan proses pembelajaran aktif yang mendorong sikap belajar sesuai gaya dan karakteristik siswa                <br><br></p>
+                    <p>6. Merealisasikan pemerdekaan pendidikan dengan semangat kebangsaan, demi menumbuhkan sikap tanggung jawab terhadap diri dan lingkungan yang beragam/majemuk                <br><br></p>
+                    <p>7. Menggali konsep diri sebagai anak bangsa yang mempelajari secara terus-menerus sejarah, kekayaan alam, dan budaya negeri serta nilai-nilai ke-Indonesiaan                <br><br></p>
+                    <p>8. Memberi wawasan dan pengalaman belajar yang menyenangkan dengan paradigma baru pendidikan dengan  seluas-luasnya berjejaring dengan dunia kependidikan Internasional               <br><br> </p>
+                    <p>9. Mewujudkan kredo RUMAH PENDIDIKAN KARAKTER INDONESIA <br><br>               </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilititties -->
+    <section id="fasilitas">
+        <div class="mt-6">
+            <h1 class="font-extrabold text-5xl text-green-500 px-6 mb-6 lg:text-7xl">Fasilitas</h1>
+            <div class="flex flex-col gap-14 lg:gap-0">
+                <div class="flex flex-col justify-center items-center gap-5 lg:border lg:border-slate-200 lg:flex-row lg:h-1/3">
+                    <img class="w-full object-cover lg:w-[500px]" src="src/fac-1.jpg" alt="field">
+                    <div class="px-6">
+                        <p class="bg-green-500 text-white inline p-1 rounded-lg">Facilities</p>
+                        <h3 class="text-2xl font-bold mb-2 lg:text-4xl text-green-500">Lapangan Multifungsi</h3>
+                        <p class="font-normal lg:text-lg text-justify mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit cumque voluptatum, labore odit perferendis natus ut doloremque sint minus repellendus. Voluptas, recusandae? Asperiores eius ratione molestiae perferendis quia inventore mollitia distinctio libero quos expedita, saepe ad officia non doloribus?</p>
+                        <span class="relative lg:w-full">
+                            <span class="block absolute border-black bg-green-500 border-[3px] rounded-lg bg-transparent w-full h-full lg:w-1/3"></span>
+                            <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10 lg:w-1/3 lg:mx-0">Check it out!</button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center gap-5 lg:border lg:border-slate-200 lg:flex-row-reverse lg:h-1/3">
+                    <img class="w-full object-cover lg:w-[500px]" src="src/fac-2.jpg" alt="field">
+                    <div class="px-6">
+                        <p class="bg-green-500 text-white inline p-1 rounded-lg">Facilities</p>
+                        <h3 class="text-2xl font-bold mb-2 lg:text-4xl text-green-500">Ruang Kelas Ber-AC</h3>
+                        <p class="font-normal lg:text-lg text-justify mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit cumque voluptatum, labore odit perferendis natus ut doloremque sint minus repellendus. Voluptas, recusandae? Asperiores eius ratione molestiae perferendis quia inventore mollitia distinctio libero quos expedita, saepe ad officia non doloribus?</p>
+                        <span class="relative lg:w-full">
+                            <span class="block absolute border-black bg-green-500 border-[3px] rounded-lg bg-transparent w-full h-full lg:w-1/3"></span>
+                            <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10 lg:w-1/3 lg:mx-0">Check it out!</button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center gap-5 lg:border lg:border-slate-200 lg:flex-row lg:h-1/3">
+                    <img class="w-full object-cover lg:w-[500px]" src="src/fac-3.jpg" alt="field">
+                    <div class="px-6">
+                        <p class="bg-green-500 text-white inline p-1 rounded-lg">Facilities</p>
+                        <h3 class="text-2xl font-bold mb-2 lg:text-4xl text-green-500">Ruang Komputer</h3>
+                        <p class="font-normal lg:text-lg text-justify mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit cumque voluptatum, labore odit perferendis natus ut doloremque sint minus repellendus. Voluptas, recusandae? Asperiores eius ratione molestiae perferendis quia inventore mollitia distinctio libero quos expedita, saepe ad officia non doloribus?</p>
+                        <span class="relative lg:w-full">
+                            <span class="block absolute border-black bg-green-500 border-[3px] rounded-lg bg-transparent w-full h-full lg:w-1/3"></span>
+                            <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10 lg:w-1/3 lg:mx-0">Check it out!</button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center gap-5 lg:border lg:border-slate-200 lg:flex-row-reverse lg:h-1/3">
+                    <img class="w-full object-cover lg:w-[500px]" src="src/fac-4.jpg" alt="field">
+                    <div class="px-6">
+                        <p class="bg-green-500 text-white inline p-1 rounded-lg">Facilities</p>
+                        <h3 class="text-2xl font-bold mb-2 lg:text-4xl text-green-500">Perpustakaan</h3>
+                        <p class="font-normal lg:text-lg text-justify mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit cumque voluptatum, labore odit perferendis natus ut doloremque sint minus repellendus. Voluptas, recusandae? Asperiores eius ratione molestiae perferendis quia inventore mollitia distinctio libero quos expedita, saepe ad officia non doloribus?</p>
+                        <span class="relative lg:w-full">
+                            <span class="block absolute border-black bg-green-500 border-[3px] rounded-lg bg-transparent w-full h-full lg:w-1/3"></span>
+                            <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10 lg:w-1/3 lg:mx-0">Check it out!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <section id="footer">
+        <div>
+            <div class="bg-green-500 mt-24">
+                <img class="w-24 m-6" src="src/home-img.png" alt="insimg">
+                <div class="flex flex-col px-6 justify-center gap-2 text-white lg:flex-row lg:items-center lg:justify-between">
+                    <div class="lg:w-1/2 gap-4 flex flex-col">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path d="m21.743 12.331-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669z"></path></svg> Jl. Raya Industri No. 100 Kel. Baktijaya Kecamatan Sukmajaya. Kota Depok, Bakti Jaya, Kec. Sukmajaya, Kota Depok Prov. Jawa Barat 16451. </span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path></svg> 0812 8333 0152</span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"></path></svg> 0812 8333 0152</span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg> ins_smp@yahoo.co.id</span>
+                    </div>
+                    <iframe class="lg:w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d507541.23878555594!2d106.845195!3d-6.372568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edbaa2bb5543%3A0xcb625dc9709832c1!2sSMP%20The%20Indonesia%20Natural%20School!5e0!3m2!1sen!2sus!4v1706082208418!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-12 bg-white flex justify-center items-center">
+            <p class="text-slate-500 text-center">Copyright by Adrian E.N.</p>
+        </div>
+    </section>
+
+    <!-- js -->
+    <script src="src/js/script.js"></script>
+</body>
+</html>
